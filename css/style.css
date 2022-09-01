@@ -1,0 +1,27 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav .panaderia summary {
+    font-weight: bold;
+    color: #FFC300 ;
+}
+nav .panaderia ol .pan-dulce{
+    color:#DE2819  ;
+    font-weight:bold;
+}
+nav .panaderia ol .pan-salado{
+    color: #013AFD;
+    font-weight:bold;
+}nav .panaderia ol .pan-relleno{
+    color:#DC4B1A;
+    font-weight:bold;
+}
+nav .panaderia ol li {
+    font-weight: bold;
+    color: #262729;
+}
+nav .panaderia ol li a{
+    text-decoration: none;
+    color: #262729 ;
+    font-weight:bold;
+}
