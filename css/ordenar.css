@@ -1,0 +1,51 @@
+body{
+    font-family:'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: auto;
+    height: 90px;
+    background-color: black;
+}
+.container .form-ordenar{
+    width: 300px;
+    height: 400px;  
+    margin: auto;
+    padding: 80px 80px ;
+    border-radius: 20px;;
+}
+.container .form-ordenar h3{
+    font-size: 20px;
+    text-align: end;
+}
+.container .form-ordenar li{
+    list-style: none;
+}
+.container .form-ordenar label{
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: start;
+}
+.container .form-ordenar li select{
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.container .form-ordenar li .boton {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: white;
+    background: black;
+    font-size: 18px;
+    border-radius: 15px;
+    float: right;
+    cursor: pointer;
+    font-family:'Roboto Mono', monospace; 
+}

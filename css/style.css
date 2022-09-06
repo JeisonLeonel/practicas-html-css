@@ -3,7 +3,7 @@ h1 {
 }
 nav .panaderia{
     font-family:'TangoSans';
-    src: url(../font/TangoSans.ttf); 
+    src: url(../assets/font/TangoSans.ttf); 
     font-style: normal;
     font-weight: normal;
 }
@@ -35,4 +35,31 @@ nav .pasteleria {
     font-family: 'ABeeZee', sans-serif;
     font-family: 'Anek Telugu', sans-serif;
     font-weight: bold;
+}
+.slider-container { 
+    width: auto;
+    height: auto;
+    display: block;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+.slider-image{
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+.list-botones{
+    margin-top: 10px;
+    text-align: center;
+}
+.slider-item{
+    display: inline-block;
+    inline-size: 20px;
+    block-size: 20px;
+    background-color: black;
+    border-radius: 50%;
 }
